@@ -1,0 +1,809 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Bebas+Neue&family=Caveat:wght@400;600;700&family=DM+Serif+Display&family=Girassol&family=Kalam:wght@700&family=Oswald:wght@300;500&family=Pacifico&family=Playfair+Display:wght@400;500&family=Poltawski+Nowy:wght@700&family=Vidaloka&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Caveat:wght@400;600;700&family=DM+Serif+Display&family=Kalam:wght@700&family=Oswald:wght@300&family=Pacifico&family=Playfair+Display:wght@400;500&family=Poltawski+Nowy:wght@700&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Caveat:wght@400;600;700&family=DM+Serif+Display&family=Girassol&family=Kalam:wght@700&family=Oswald:wght@300;500&family=Pacifico&family=Playfair+Display:wght@400;500&family=Poltawski+Nowy:wght@700&family=Vidaloka&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Bebas+Neue&family=Caveat:wght@400;600;700&family=DM+Serif+Display&family=Girassol&family=Kalam:wght@700&family=Oswald:wght@300;500;700&family=Pacifico&family=Playfair+Display:wght@400;500&family=Poltawski+Nowy:wght@700&family=Vidaloka&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Asap+Condensed&family=Autour+One&family=Bebas+Neue&family=Caveat:wght@400;600;700&family=DM+Serif+Display&family=Girassol&family=Kalam:wght@700&family=Oswald:wght@300;500;700&family=Pacifico&family=Playfair+Display:wght@400;500&family=Poltawski+Nowy:wght@700&family=Vidaloka&family=Young+Serif&display=swap');
+
+*{ 
+    margin: 0px;
+    padding:0px;
+}
+
+/* NAVBAR */
+
+.navbar{
+    border: 1px solid rgb(5, 10, 16);
+    background-color: rgb(5, 10, 16);
+    background-image: url('images/navbar.jpeg'); 
+}
+.logo{
+    float: left;
+    right: 20px;
+    margin: 1vh;
+    padding: 1vh;
+}
+
+.logo img{
+    width: 6vh;
+    height: 6vh;
+    min-width: 5vh;
+    min-height: 5vh;
+    border: 3px solid rgb(59, 59, 59);
+    border-radius: 50%;
+}
+
+#home{
+    background-color: rgb(238, 238, 238);
+}
+
+#intro{
+    background-color: rgb(238, 238, 238);
+}
+
+#Stat{
+    background-color: rgb(238, 238, 238);
+}
+#Conc{
+    background-color: rgb(238, 238, 238);
+}
+#Ref{
+    background-color: rgb(238, 238, 238);
+}
+
+#Pagesgroup{
+    text-align: center;
+    padding: 5vh;
+}
+
+.Pages{
+    border:3px solid rgb(59, 59, 59);
+    display: inline;
+    margin: 30px;
+    padding: 10px;
+    font-family: Vidaloka;
+
+}
+.Pages a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    margin: 10px;
+    font-size: x-large;
+    opacity: 0.08;
+    transition:.8s;
+}
+.Pages :hover{
+    opacity: 1;
+    transition:.4s;
+    font-size: x-large;
+    padding: 10px;
+}
+
+/* PAGE ONE / HOME */
+
+.bannerH{
+    background-image: url('images/BannerT6.webp'); 
+    background-size:cover;
+    background-position: center;
+    height: 890px;
+}
+
+.HeadBannertext{
+    font-family: DM Serif Display;
+    position: absolute;
+    top:20%;
+    left:20%;
+}
+
+.HeadBannertext h1{
+    color: rgb(31, 19, 67);
+    font-size: 125px;
+    text-shadow: 3px 3px #ffffff; /* Gives shadow to the text*/
+    padding: 10px;
+}
+.HeadBannertext h2{
+    color: rgb(244, 248, 255);
+    font-size: 100px;
+    text-shadow: 5px 5px #000000; /* Gives shadow to the text*/
+}
+.SubBannerText{
+    font-family: DM Serif Display;
+    position: absolute;
+    top:35%;
+    left:20%;
+}
+.SubBannerText h2{
+    color: rgb(150, 159, 175);
+    font-size: 100px;
+    text-shadow: 3px 3px #000000; /* Gives shadow to the text*/
+}
+
+.QuoteBannertext{
+    position: absolute;
+    top:50%;
+    left:20%;
+}
+.QuoteBannertext h6{
+    font-family: Bebas Neue;
+    font-size:50px;
+    color: rgb(178, 137, 137);
+    text-shadow: 3px 3px #000000; /* Gives shadow to the text*/
+}
+
+/* PAGE TWO / INTRODUCTION */
+
+
+.IntroBody{
+    background-image: url('images/bannera3.webp');
+    background-size:cover;
+    background-position: center;
+    width: 100wv;
+    height: 890px; 
+}
+
+.IntroBanner h2{
+    left: 28%;
+    top: 23%;
+    font-family: Oswald;
+    font-size: 100px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #ffffff; /* Gives shadow to the text*/
+    position: absolute;
+    color: rgb(0, 0, 0);
+}
+
+hr{
+    margin: 60px;
+}
+
+.IntroParagraph{
+    top: 50%;
+    margin: 50px;
+    padding: 30px;
+}
+.IntroParagraphbox{
+    background-color: #3d3939a2 ;
+    border: 1px solid white;
+}
+
+.IntroParagraphbox p{
+    margin: 30px;
+    font-size: 30px;
+    font-family: Archivo Narrow;
+    color: rgb(235, 175, 72);
+    text-indent: 50px;
+    line-height: 1;
+    font-weight: 700;
+    text-shadow: 2px 2px #000000;  /* Gives shadow to the text*/
+    text-align: justify;
+}
+
+
+
+/* PAGE THREE / STATISTICS */
+
+.StatBody{
+    background-image: url('images/bannerT4.webp');
+    background-size:cover;
+    background-position: center;
+    width: 100wv;
+    height: 890px; 
+}
+
+.StatBanner h2{
+    left: 38%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    font-size: 80px;
+    position: absolute;
+    top: 25%;
+    text-shadow: 2px 2px #ffffff; /* Gives shadow to the text*/
+}
+#Statgroup{
+    text-align: center;
+
+}
+.var{
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    border:3px solid rgb(59, 59, 59);
+}
+.var a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Vidaloka;
+    color: #000000;
+    opacity: 0.08;
+    transition:.8s;
+}
+.var :hover{
+    opacity: 1;
+    transition:.4s;
+    font-size: large;
+    padding: 10px;
+}
+
+#Quant{
+    background-color: rgb(238, 238, 238);
+}
+
+#Quant a{
+    margin: 10vh;
+}
+
+#Qual{
+    background-color: rgb(238, 238, 238);
+
+}
+#Qual a{
+    margin: 10vh;
+}
+
+.Statdefinitions{
+    background-color: #3d3939a2 ;
+    border: 1px solid white;
+}
+.Quanboxparent{
+    padding-left: 8vh;
+    padding-right: 8vh;
+}
+
+.Quantibox{
+    float: left;
+    background-color: #3d3939a2 ;
+    border: 1px solid white;
+    height: 28vh;
+    margin:10px;
+    font-family: Archivo Narrow;
+}
+.Quantibox br{
+    margin: 10vh;
+}
+.Quantibox h5{
+    font-family: Archivo Narrow;
+    text-transform: uppercase;
+    font-size: xx-large;
+    text-align: center;
+    margin:10px;
+    color: rgb(235, 175, 72);
+    text-shadow: 2px 2px #000000; /* Gives shadow to the text*/
+}
+
+.Quantibox p{
+    text-align: justify;
+    margin:10px;
+    font-size: 20px;
+    color: rgb(235, 175, 72);
+    text-shadow: 2px 2px #000000; /* Gives shadow to the text*/
+}
+
+.Quantibox ul{
+    margin:30px;
+    color: rgb(235, 175, 72);
+    font-size: 3vh;
+    text-shadow: 2px 2px #000000; /* Gives shadow to the text*/
+}
+
+.Qualibox{
+    font-family: Archivo Narrow;
+    float: right;
+    background-color: #3d3939a2 ;
+    border: 1px solid white;
+    margin:10px;
+}
+
+.Qualibox h5{
+    text-transform: uppercase;
+    font-size: xx-large;
+    text-align: center;
+    margin:10px;
+    color: rgb(235, 175, 72);
+    text-shadow: 2px 2px #000000; /* Gives shadow to the text*/
+}
+
+.Qualibox p{
+    text-align: justify;
+    font-size: 20px;
+    margin:10px;
+    color: rgb(235, 175, 72);
+    text-shadow: 2px 2px #000000; /* Gives shadow to the text*/
+}
+
+.Qualibox ul{
+    margin:30px;
+    color: white;
+    font-size: 3vh;
+    color: rgb(235, 175, 72);
+    text-shadow: 2px 2px #000000; /* Gives shadow to the text*/
+}
+
+/* SUB PAGE THREE / STATISTICS / QUAN */
+
+.QuanBody{
+    background-image: url('images/QuanBanner3.webp');
+    background-size:cover;
+    background-position: center;
+    width: 100vw;
+    height: 290vh; 
+}
+
+.QuanBanner h2{
+    left: 20%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    font-size: 80px;
+    position: absolute;
+    top: 25%;
+    text-shadow: 2px 2px #000000; /* Gives shadow to the text*/
+    color: rgb(235, 175, 72);
+}
+.Quanbar{
+    float: left;
+    padding-left: 10vh ;
+    width: 100px;
+}
+.Quantitle{
+    margin: 10px;
+}
+.Quantitle h3{
+    font-size: 40px;
+    font-family: Archivo Narrow;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px;  
+    border: 2px solid rgb(255, 251, 251);
+    color: rgb(235, 175, 72);
+    text-shadow: 3px 3px #000000; /* Gives shadow to the text*/
+}
+.QuanWCL{
+    background-color: #2c222273;
+    border: 2px solid #000000;
+    margin: 30px;
+}
+.QualWCL{
+    background-color: #00000028;
+    border: 2px solid #ffffff;
+    margin: 30px;
+}
+.Quangallery{
+    margin: 30px;
+    margin-left: 53vh;
+}
+
+#WCLF img{
+    border: 2px solid #000000;
+    width: 60%;
+    height: 60%;
+}
+#WCLH img{
+    width: 60%;
+    height: 60%;
+    border: 2px solid #000000;
+}
+.QuandescWC{
+    margin: 15px;
+    border: 2px solid #fffbfb;
+}
+.QuandescWC p{
+    padding: 10px;
+    font-family: Archivo Narrow;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #000000; /* Gives shadow to the text*/
+}
+
+#WPPF img{
+    border: 2px solid #000000;
+    width: 60%;
+    height: 60%;
+}
+#WPPH img{
+    width: 60%;
+    height: 60%;
+    border: 2px solid #000000;
+}
+.QuandescWP{
+    margin: 15px;
+    border: 2px solid #ffffff;
+}
+.QuandescWP p{
+    padding: 10px;
+    font-family: Archivo Narrow;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #000000; /* Gives shadow to the text*/
+}
+/* SUB PAGE THREE / STATISTICS / QUAL */
+
+.QualBody{
+    background-image: url(images2/QualB1.jpeg);
+    background-size:cover;
+    background-position: center;
+    width: 100vw;
+    height: 500vh; 
+}
+
+.QualBanner h2{
+    left: 20%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    font-size: 80px;
+    position: absolute;
+    top: 25%;
+    text-shadow: 2px 2px #000000; /* Gives shadow to the text*/
+    color: rgb(235, 175, 72);
+
+}
+.Quanbar{
+    float: left;
+    padding-left: 10vh ;
+    width: 100px;
+}
+.QualCOCtitle{
+    margin: 10px;
+}
+.QualCOCtitle h3{
+    font-size: 40px;
+    font-family: Archivo Narrow;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px;  
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(205, 201, 224);
+    text-shadow: 1px 1px #000000; /* Gives shadow to the text*/
+}
+.QualATJtitle{
+    margin: 10px;
+}
+.QualATJtitle h3{
+    font-size: 40px;
+    font-family: Archivo Narrow;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px;  
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(250, 218, 251);
+    text-shadow: 1px 1px #000000; /* Gives shadow to the text*/
+}
+
+.QualWVtitle{
+    margin: 10px;
+}
+.QualWVtitle h3{
+    font-size: 40px;
+    font-family: Archivo Narrow;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px;  
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(235, 175, 72);
+    text-shadow: 3px 3px #000000; /* Gives shadow to the text*/
+}
+.QualWPtitle{
+    margin: 10px;
+}
+.QualWPtitle h3{
+    font-size: 40px;
+    font-family: Archivo Narrow;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px;  
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(239, 203, 203);
+    text-shadow: 1px 1px #000000; /* Gives shadow to the text*/
+}
+
+.QualWCL{
+    background-color: #62606073;
+    border: 2px solid #000000;
+    margin: 30px;
+}
+.Qualgallery{
+    margin: 30px;
+    margin-left: 53vh;
+}
+
+#COCT img{
+    border: 2px solid #000000;
+    width: 60%;
+    height: 60%;
+}
+#COCP img{
+    width: 60%;
+    height: 60%;
+    border: 2px solid #000000;
+}
+.COC{
+    margin: 15px;
+    border: 2px solid #ffffff;
+}
+.COC p{
+    padding: 10px;
+    font-family: Archivo Narrow;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #000000; /* Gives shadow to the text*/
+}
+
+#ATJT img{
+    border: 2px solid #000000;
+    width: 60%;
+    height: 60%;
+}
+#ATJP img{
+    width: 60%;
+    height: 60%;
+    border: 2px solid #000000;
+}
+.ATJ{
+    margin: 15px;
+    border: 2px solid #ffffff;
+}
+.ATJ p{
+    padding: 10px;
+    font-family: Archivo Narrow;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #000000; /* Gives shadow to the text*/
+}
+#WVT img{
+    border: 2px solid #000000;
+    width: 60%;
+    height: 60%;
+}
+#WVP img{
+    width: 60%;
+    height: 60%;
+    border: 2px solid #000000;
+}
+.WV{
+    margin: 15px;
+    border: 2px solid #ffffff;
+}
+.WV p{
+    padding: 10px;
+    font-family: Archivo Narrow;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #000000; /* Gives shadow to the text*/
+}
+#WPT img{
+    border: 2px solid #000000;
+    width: 60%;
+    height: 60%;
+}
+#WPP img{
+    width: 60%;
+    height: 60%;
+    border: 2px solid #000000;
+}
+.WP{
+    margin: 15px;
+    border: 2px solid #ffffff;
+}
+.WP p{
+    padding: 10px;
+    font-family: Archivo Narrow;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #000000; /* Gives shadow to the text*/
+}
+
+/*PAGE FOUR / CONCLUSION */
+
+.ConcBody{
+    background-image: url('images/Concbanner1.webp');
+    background-size:cover;
+    background-position: center;
+    width: 100wv;
+    height: 950px; 
+}
+
+.ConcBanner h2{
+    left: 33%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    font-size: 100px;
+    position: absolute;
+    top: 23%;
+    text-shadow: 5px 5px #000000; /* Gives shadow to the text*/
+    color: rgb(255, 255, 255);
+}
+
+.ConcParagraph{
+    top: 50%;
+    margin: 50px;
+    padding: 30px;
+}
+
+.ConcParagraphbox{
+    margin: 15px;
+    background-color: #3d3939b6 ;
+    border: 1px solid white;
+}
+.ConcParagraphbox p{
+    margin: 15px;
+    font-size: 25px;
+    color: rgb(235, 175, 72);
+    text-indent: 100px;
+    line-height: 1;
+    font-weight: 700;
+    text-shadow: 2px 2px #000000; /* Gives shadow to the text*/
+    font-family: Archivo Narrow;;  
+    text-align: justify;
+}
+
+/*PAGE FIVE / REFERENCES */
+
+.Refbody{
+    background-image: url('images2/Refbanner.jpeg');
+    background-size:cover;
+    background-position: center;
+    width: 100wv;
+    height: 950px; 
+}
+.RefBanner h2{
+    left: 33%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    font-size: 100px;
+    position: absolute;
+    top: 23%;
+    text-shadow: 5px 5px #000000; /* Gives shadow to the text*/
+    color: rgb(235, 175, 72);
+}
+.Reftable table{
+    font-family: Archivo Narrow;;  
+    font-size: large;
+    text-align: justify;
+    border: #000000;
+    margin: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #000000; /* Gives shadow to the text*/
+}
+.Reftable table, th, td {
+    background-color: #514a4a41;
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+/* BOTTOM PAGE 1 / ABOUT ME */
+
+.Aboutbody{
+    background-image: url('images2/ABOUTUS4.jpeg');
+    background-size:cover;
+    background-position: center;
+    height: 3100px; 
+}
+
+.AbouBanner h2{
+    left: 33%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    font-size: 100px;
+    position: absolute;
+    top: 23%;
+    text-shadow: 5px 5px #000000; /* Gives shadow to the text*/
+    color: rgb(235, 175, 72);
+}
+
+.Name{
+    margin: 10px;
+}
+.Name h3{
+    font-size: 45px;
+    font-family: Archivo Narrow;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px;  
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(235, 175, 72);
+    text-shadow: 2px 2px #000000; /* Gives shadow to the text*/
+}
+
+
+.Frezhia{
+    background-color: #873cb028;
+    border: 3px solid #ffffff;
+    margin: 30px;
+}
+
+#ZH img{
+    border: 2px solid #000000;
+    width: 60%;
+    height: 60%;
+}
+.ZHDescription{
+    margin: 15px;
+    border: 2px solid #fffbfb;
+}
+.ZHDescription p{
+    text-align: center;
+    padding: 10px;
+    font-family: Archivo Narrow;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #000000; /* Gives shadow to the text*/
+}
+
+#WPPF img{
+    border: 2px solid #000000;
+    width: 60%;
+    height: 60%;
+}
+#WPPH img{
+    width: 60%;
+    height: 60%;
+    border: 2px solid #000000;
+}
+.QuandescWP{
+    margin: 15px;
+    border: 2px solid #ffffff;
+}
+.QuandescWP p{
+    padding: 10px;
+    font-family: Archivo Narrow;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #000000; /* Gives shadow to the text*/
+}
+
+/* FOOTER */
+
+.Footer{
+    height:100px;
+    background-color: rgb(0, 0, 0);
+}
+.cp{
+    color: white;
+    padding-top: 30px;
+}
+.cp h5{
+    text-transform: uppercase;
+    font-family: Vidaloka;
+    float: left;
+    font-size: medium;
+    padding-left:  5%;
+}
+.About{
+    border:3px solid rgb(59, 59, 59);
+    display: inline;
+    margin: 30px;
+    padding: 10px;
+    font-family: Vidaloka;
+}
+.About a{
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    opacity: 0.30;
+    transition:.8s;
+}
+.About :hover{
+    opacity: 1;
+    transition:.4s;
+    font-size: large;
+    padding: 10px;
+}
+#Ab{
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+    text-transform: uppercase;
+    color: black;
+    margin: 10px;   
+}
+.links{
+    float: right;
+    padding-right: 5%;
+}
+.links img{
+    height: 30px;
+    width: 30px;
+}
+.links a{
+    text-decoration: none;
+}
+   
